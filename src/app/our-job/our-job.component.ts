@@ -38,24 +38,16 @@ export class OurJobComponent implements OnInit, AfterViewInit {
 
       if ($('#o1').isInViewport()) {
         this.aS.transformY('o1', 0, 1, 0);
-
-  
-      }
-
-      if ($('#o2').isInViewport()) {
-        this.aS.transformY('o2', 0, 0.7, 0.4);
+        this.aS.transformY('o2', 0, 0.6, 0.4);
+        this.aS.transformY('o3', 0, 1, 0.4);
+        this.aS.transformY('o4', 0, 1, 0.6);
 
         this.message1Animation();
         this.message2Animation();
+
       }
 
-      if ($('#o3').isInViewport()) {
-        this.aS.transformY('o3', 0, 1, 0.4);
-      }
-
-      if ($('#o4').isInViewport()) {
-        this.aS.transformY('o4', 0, 1, 0.6);
-      }
+      
 
 
     
