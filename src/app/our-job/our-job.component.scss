@@ -1,0 +1,235 @@
+
+span {
+    color: #FFBC00;
+}
+
+.our-job {
+    z-index: 3;
+
+    .head {
+    max-width: 1250px;
+    padding-left: 12%;
+    margin:auto;
+    }
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    overflow: hidden;
+    padding: 30px 0;
+
+    
+
+   .content {
+    overflow-y: hidden;
+    z-index: 3;
+    padding-bottom: 20px;
+       display: flex;
+       overflow-x: auto;
+
+    .item {
+        
+        margin: 0 5px;
+        .top {
+            height: 77px;
+            width: 300px;
+            padding: 50px 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 160%;
+
+            .square {
+                text-align: center;
+                line-height: 60px;
+                min-width: 60px;
+                height: 60px;
+                color: #FFBC00;
+
+                background: #FBFBFB;
+                border-radius: 12px;
+            }
+
+            .text {
+                margin-right: auto;
+                margin-left: 15px; 
+            }
+        }
+        
+
+        .card {
+            overflow: hidden;
+        margin: auto;
+        align-items: center;
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+        width: 270px;
+        height: 475px;
+
+        background: #D3DFFE;
+        border-radius: 30px;
+
+
+       
+        .img-a {
+            opacity: 0;
+            transform: translateY(500px);
+           
+            position: absolute;
+            
+        }
+
+        .bottom {  
+            z-index:5 ;
+            width: 300px;
+            font-size: 16px;
+            line-height: 18px;
+            color: #FFFFFF;
+            margin-top: auto;
+            display: flex;
+            justify-content: space-between;
+
+            div {
+                cursor: pointer;
+                padding: 30px;
+            }
+        }
+
+        }
+    }
+
+   }
+}
+
+img.phone {
+    // left: 50%;
+    position: absolute;
+    bottom: 0;
+}
+
+img.mac {
+    top: 50px;
+}
+
+
+#message1 {
+    opacity: 0;
+    transform: translateX(-100px);
+    top: 200px;
+    left: -65px;
+    border-radius: 0px 10px 10px 0px;
+    #text1 {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+}
+
+#message2 {
+    opacity: 0;
+    transform: scale(0.8);
+
+    top: 240px;
+    left: 55px;
+    border-radius: 10px;
+    #text2 {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+}
+
+.message {
+    
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(25px);
+
+    
+    position: relative;
+    width: 140px;
+    height: 75px;
+
+    .icon {
+        margin: 0;
+        position: absolute;
+        top: 10px;
+        left: 17px;
+    }
+
+    .text {
+        left: 17px;
+        bottom: 13px;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 11px;
+        
+        color: #111111;
+        position: absolute;
+    }
+
+    .time {
+        right: 15px;
+        top: 15px;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 9px;
+        
+        color: #000000;
+        
+        opacity: 0.5;
+        position: absolute;
+    }
+}
+
+
+.content::-webkit-scrollbar {
+    background-color: transparent;
+    height: 8px;
+}
+
+.content::-webkit-scrollbar-thumb {
+    
+    background: #D3DFFE;
+    
+    border-radius: 8px;
+}
+
+.buttons {
+    max-width: 1200px;
+    padding: 75px 0 125px 0;
+    padding-left: 10%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+    
+
+    .button2 {
+        padding: 20px 40px;
+        background-color: white;
+        color: #FFBC00;
+        border: 1px solid #FFBC00;
+        border-radius: 16px;
+    }
+}
+
+.wrap {
+    max-width: 1250px;
+    // padding-left: 12%;
+    margin:auto;
+}
+
+@media screen and (min-width: 1200px) {
+    .content {
+        justify-content: center;
+        padding-left: 12%;
+    }
+          
+}

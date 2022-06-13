@@ -1,0 +1,151 @@
+
+
+.head {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 70px;
+
+
+    .item {
+        padding: 0 15px;
+        width: 370px;
+        opacity: 0;
+        transform: translateX(-400px);
+
+        .top {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            
+        }
+
+        .bottom {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 180%;
+        }
+    }
+}
+
+.we-are {
+    padding-left: 4%;
+    margin-top: 150px;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    display: flex;
+
+   .content {
+    padding: 40px 40px 40px 0;
+    width: 570px;
+
+    .item {
+        opacity: 0;
+        transform: translateX(-200px);
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+
+        .top {
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 75px;
+            padding-bottom: 30px;
+        }
+
+        .bottom {
+
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 180%;
+        }
+    }
+
+    .item2 {
+        opacity: 0;
+        transform: translateX(-200px);
+        padding-right: 20px;
+
+        display: flex;
+        flex-direction: column;
+
+        .top {
+            padding: 30px  0px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 160%;
+
+        }
+
+        .bottom {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+
+
+            li {
+                padding-bottom: 15px;
+                list-style: none;
+            }
+        }
+    }
+   }
+
+    .image {
+        margin: auto 0;
+        height: 100%;
+        position: relative;
+        
+        img {
+            opacity: 0;
+            transform: translateX(200px);
+        }
+    }
+
+    .shadow {
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-top-left-radius: 12px;
+            border-bottom-left-radius: 12px;
+            height: 100%;
+            background: #F3F3F3;
+            width: 630px;
+        }
+}
+
+.shadow-1 {
+    vertical-align: middle;
+    width: 500px; 
+    border-radius: 20px; 
+    padding: 15px; 
+}
+
+
+
+
+span {
+    color: #FFBC00;
+}
+
+@media screen and (max-width: 1100px) {
+    .head {
+        flex-direction: column;
+    }
+    .item {
+        margin: 20px auto;
+    }
+
+
+
+    .we-are .shadow {
+        width: 100%;
+    }
+    .image {
+        display: none;
+    }
+}
+

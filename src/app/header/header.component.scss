@@ -1,0 +1,125 @@
+
+
+
+
+.head {
+    background-color: #FFBC00;
+    
+    
+
+    .desc {
+        justify-content: center;
+        padding: 120px 0 45px 10%;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+
+        .info {
+            // height: 500px;
+            
+            // width: 500px;
+            overflow: hidden;
+
+            .content {
+                width: 500px;
+                // width: 100%;
+                display: flex;
+                position: relative;
+                margin-left: auto;
+
+                
+    
+                .text {
+                    
+                    .bold {
+                        font-size: 68px;
+                        line-height: 130%;
+                        padding: 20px;
+                    }
+
+                    .thin {
+                        padding: 20px;
+
+                        white-space: initial;
+                    }
+                    .bottom {
+                        display: inline-block;
+                        margin-right: auto;
+                        padding: 20px;
+                    }
+                }
+    
+                
+            }
+
+        }
+
+        .image {
+            // margin-left: 55px;
+            width: 650px;
+            // margin: auto;
+            // background: url('../../assets/space-helmetf\ 2.png');
+            
+        }
+    }
+
+    
+}
+
+
+li {
+    list-style: none;
+    padding: 15px 20px;
+    border-radius: 12px;
+    background-color: transparent;
+    a {
+        line-height: 21px;
+        height: 21px;
+        color: #000000;
+        text-decoration: none;
+    }
+}
+
+
+.active {
+    background-color: white;
+}
+
+@media screen and (max-width: 1280px) {
+    .links {
+        display: none;
+    }
+    .header {
+        justify-content: space-between;
+    }
+    .header {
+        
+        padding-left: 0px;
+    }
+    .header .logo-wrap {
+        padding-left: 15px;
+    }
+
+    .head .desc .info {
+        margin-right: auto;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    app-menu {
+        display: none !important;
+    }
+          
+}
+
+
+
+
+
+
+
+
+
+
