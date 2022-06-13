@@ -13,7 +13,7 @@
     .items {
         padding-left: 10%;
         
-        padding-bottom: 150px;
+        padding-bottom: 75px;
         display: flex;
         justify-content: center;
 
@@ -23,7 +23,7 @@
             padding: 15px;
             padding-bottom: 30px;
             position: relative;
-            width: 350px;
+            max-width: 350px;
 
             .square {
                 z-index: -1;

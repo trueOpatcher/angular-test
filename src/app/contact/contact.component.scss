@@ -8,6 +8,7 @@
     position: relative;
 
     .head {
+        transform: translateY(70px);
         margin: auto;
         max-width: 800px;
     }
@@ -89,6 +90,10 @@
     .contact .desc form .form-input input {
        width: 100%;
 
+    }
+
+    .contact .desc form .form-input textarea {
+        width: 100%;
     }
           
 }
