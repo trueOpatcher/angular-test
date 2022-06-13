@@ -1,10 +1,8 @@
-1. Clone Repository:
-   https://github.com/trueOpatcher/angular-test/
-   
-2. In the root folder write in terminal:
-   npm install
-     then
-   ng serve
+### Clone Repository
+https://github.com/trueOpatcher/angular-test/
 
-3. Open in browser:
-   http://localhost:4200
+### In the root folder run in terminal
+"npm install" then "ng serve"
+
+### Open in browser
+http://localhost:4200
