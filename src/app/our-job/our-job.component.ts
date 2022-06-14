@@ -36,7 +36,7 @@ export class OurJobComponent implements OnInit, AfterViewInit {
     // document.getElementById('o1')!.style.opacity = '1';
     $(window).on('resize scroll', () => {
 
-      if ($('#o1').isInViewport()) {
+      if ($('#card-view').isInViewport()) {
         this.aS.transformY('o1', 0, 1, 0);
         this.aS.transformY('o2', 0, 0.6, 0.4);
         this.aS.transformY('o3', 0, 1, 0.4);

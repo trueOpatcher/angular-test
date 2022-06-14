@@ -7,9 +7,8 @@ span {
     z-index: 3;
 
     .head {
-    max-width: 1250px;
+    max-width: 1150px;
     padding-left: 10%;
-    padding-right: 10%;
 
     margin:auto;
     }
@@ -216,6 +215,7 @@ img.mac {
     
 
     .button2 {
+        white-space: nowrap;
         padding: 20px 40px;
         background-color: white;
         color: #FFBC00;
