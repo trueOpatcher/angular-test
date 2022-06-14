@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AnimationService } from '../shared/animation.service';
 
 @Component({
   selector: 'app-bottom',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BottomComponent implements OnInit {
 
-  constructor() { }
+  constructor(private aS: AnimationService) { }
 
   ngOnInit(): void {
+
+  
+  }
+
+  onClickLink(id:any) {
+    this.aS.clickLink(id);
   }
 
 }
